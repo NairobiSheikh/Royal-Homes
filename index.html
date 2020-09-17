@@ -23,20 +23,49 @@
     />
 
     <!-- my main css link -->
-    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/sass/main.css" />
 
     <title>Royal-Homes</title>
   </head>
   <body>
     <!-- Navigation section -->
-    <section class="container navigation pt-3">
-      <img src="/assets/img/move.mp4" alt=""/>
-      <h1>Hello, world!</h1>
-      <div class="row">
-        <!-- in the nave will have 2 colums and another 2 colums for the ul -->
-        <nav></nav>
-      </div>
-    </section>
+    <header class="h-header">
+      <section class="container">
+        <nav class="row navbar sticky-top navbar-light bg-light">
+          <div class="col-6">
+            <a class="navbar-brand" href="#">
+              <img id="logo" src="/img/royal.png" width="40" height="40" alt="company-logo">
+              <h5>Royal-Homes</h5>
+            </a>
+          </div>
+          <div class="col-6">
+            <div class="row">
+              <div class="col-3 item-dropdown">
+                <a href="#about">About</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Company</a>
+                  <a class="dropdown-item" href="#">Testimonials</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">RoyalHomes Elite</a>
+                </div>
+              </div>
+              <div class="col-4">
+                <a href="#selling">Selling</a>
+              </div>
+              <div class="col-4">
+                <a href="#buying">Buying</a>
+              </div>
+              <div class="col-4">
+                <a href="#home-estimates">Home Estimates</a>
+              </div>
+              <div class="col-4">
+                <a href="#home-loans">Home Loans</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </header>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -55,6 +84,6 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-    <script src="/assets/js/main.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
