@@ -1,0 +1,23 @@
+{
+  "name": "royal-homes",
+  "version": "1.0.0",
+  "description": "Landing Royal-Homes.",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass": "node-sass /sass/main.scss /css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NairobiSheikh/Royal-Homes.git"
+  },
+  "author": "Nairobi Sheikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NairobiSheikh/Royal-Homes/issues"
+  },
+  "homepage": "https://github.com/NairobiSheikh/Royal-Homes#readme"
+}
